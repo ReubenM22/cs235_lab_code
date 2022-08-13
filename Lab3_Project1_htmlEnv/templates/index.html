@@ -7,34 +7,100 @@
     <!-- For Bootstrap, add your CSS and JS links here -->
 
     <style>
-    h1 {text-align: center;} 
-    h2 {text-align: center;}
-    p {text-align: center;}
-    div {text-align: center;}
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-  }
-    </style>
+      h1 {text-align: center;} 
+      h2 {text-align: center;}
+      h3 {text-align: center}
+      p {text-align: center;}
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;}
+      
+      ul { 
+          position: relative; 
+          display: inline-block; 
+          padding-left: 1em; 
+          left: 50%; 
+          transform: translateX(-50%); 
+        } 
+      form {
+          text-align: center;
+        }
+      
+      </style>
 
   </head>
-  <body>
+  <body style="background-color:#cedddd;">
     <!-- Add your HTML content here... -->
-    <h1>Better Call Saul</h1>
+    <h1>Saul Goodman</h1>
     <h2>Attorney at Law</h2>
 
     <img src="https://www.musicmagpie.co.uk/wp-content/uploads/2015/02/better-call-saul.jpg" alt="BetterCallSaul ad" class="center">
+      <p class="mytext">Hi, I’m Saul Goodman. <br>
+        Did you know that you have rights?<br>
+        The Constitution says you do. And so do I.<br>I believe that until proven guilty,
+        every man, woman, and child in this country is innocent.<br>And that’s why I fight 
+        for you, Albuquerque!<br>Better call Saul!</p>
+      <p></p>
+      <h2>Call Now! (505) 503-4455</h2>
+      <h1 class="title">Leave your details and we will be in contact</h1>
+      <form action="">
+        <label for="Full Name">Full Name</label><br />
+        <input type="text" id="Full Name" name="Full Name" /><br />
+  
+        <label for="Email">Email</label><br />
+        <input type="text" id="Email" name="Email" /><br />
 
-    <p class="mytext">Hi, I’m Saul Goodman. <br>
-       Did you know that you have rights?<br>
-      The Constitution says you do. And so do I.<br>I believe that until proven guilty,
-       every man, woman, and child in this country is innocent.<br>And that’s why I fight 
-       for you, Albuquerque!<br>Better call Saul!</p>
+        <label for="Contact Number">Contact Number</label><br />
+        <input type="text" id="Contact Number" name="Contact Number" /><br />
 
-       <!-- Add contact information, ...few paragraphs, a 
-link, an image, a table, a list and a non-functional form.-->
+        <label for="Description of the Crime">Description of the Crime</label><br />
+        <input type="text" id="Description of the Crime" name="Description of the Crime" /><br />
+  
+        <button id="submit" type="submit">Better Call Saul!</button>
+      </form>
+
+
+      <div id="wrapperDiv" class = "center">
+        <div id="NotableClients" style="padding:20px;background-color:#cedddd;float:left">
+          <ul> 
+            <h3>Notable Clients</h3>
+            <li><a href=https://breakingbad.fandom.com/wiki/Nacho_Varga> Nacho Varga</a></li>
+            <li><a href=https://breakingbad.fandom.com/wiki/Mike_Ehrmantraut> Mike Ehrmantraut</a></li>
+            <li><a href=https://breakingbad.fandom.com/wiki/Krazy-8> Krazy-8</a></li>
+            <li><a href=https://breakingbad.fandom.com/wiki/Lalo_Salamanca> Lalo Salamanca</a></li>
+            <li><a href=https://breakingbad.fandom.com/wiki/Walter_White> Walter White</a></li>
+            <li><a href=https://breakingbad.fandom.com/wiki/Jesse_Pinkman> Jesse Pinkman</a></li>
+            <li><a href=https://breakingbad.fandom.com/wiki/Badger> Badger</a></li>
+            <li><a href=https://breakingbad.fandom.com/wiki/Spooge> Spooge</a></li>
+          </ul>
+        </div>
+
+        <div id="Prices" style="padding:20px;background-color:#cedddd;float:right">
+          <h3>Prices</h3>
+          <table>
+            <tr>
+              <th>Service</th><th>Price ($)</th>
+            </tr>
+            <tr>
+              <td>Initial Consaultation</td><td>$199</td>
+            </tr>
+            <tr>
+              <td>Follow-up Consaultation</td><td>$99</td>
+            </tr>
+            <tr>
+              <td>Emergency Consaultation</td><td>$500</td>
+            </tr>
+            <tr>
+              <td>Addition to PreScription</td><td>$42</td>
+            </tr>
+          </table>
+        </div>
+    </div>
+
+
+       <!--a non-functional form.-->
 
   </body>
 </html>
