@@ -8,11 +8,22 @@ h1 {
 
 h1 {text-align: center;} 
 h2 {text-align: center;}
+h3 {text-align: center}
 p {text-align: center;}
-div {text-align: center;}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
+  width: 50%;}
+
+ul { 
+    position: relative; 
+    display: inline-block; 
+    padding-left: 1em; 
+    left: 50%; 
+    transform: translateX(-50%); 
+  } 
+form {
+    text-align: center;
+  }
